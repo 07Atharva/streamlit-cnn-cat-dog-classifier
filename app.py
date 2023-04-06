@@ -14,7 +14,7 @@ print('[INFO] : Model loaded')
 st.title('What is this image? :cat: :dog:')
 global data
 
-uploaded_file = st.file_uploader("Upload a file to classify")
+uploaded_file = st.file_uploader("Upload a file to classify | Atharva")
 if uploaded_file is not None:
     bytes_data = uploaded_file.read()
     img = Image.open(io.BytesIO(bytes_data))
